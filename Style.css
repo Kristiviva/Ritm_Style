@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #162831;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 214px;
+
+}
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu ul  {
+    display: flex;
+}
+
+.menu ul li {
+    margin-left: 50px;
+    list-style: none;
+    font-size: 14px;
+}
+
+.menu ul:first-child {
+    margin-left: 0px;
+}
+.button{
+    background-color: #018ABE;
+    display: inline-flex;
+    padding: 15px 9px 15px 9px;
+    border-radius: 9px;
+}
+
+.button p {
+    color: white;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.img{
+    border-radius: 10%;
+    background-image: url(./img/unsplash_S-llxYh3GzI.png) ;
+    width: 1290px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    
+}
+h3{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+h1{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 64px;
+}
+.sessiontext{
+    color: white;
+    margin-bottom: 30px;
+    }
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 42px;
+}
+
+.chosee {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.card1 {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.card2 {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 856px;
+    gap: 24px;
+    margin-bottom: 30px;
+
+}
+.reviews{
+    color: white;
+    margin-bottom: 30px;
+    }
