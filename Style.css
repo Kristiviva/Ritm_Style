@@ -17,6 +17,7 @@ header {
    justify-content: space-between;
    align-items: center;
    gap: 214px;
+   color: white;
 
 }
 
@@ -57,7 +58,6 @@ main {
 
 }
 .img{
-    border-radius: 10%;
     background-image: url(./img/unsplash_S-llxYh3GzI.png) ;
     width: 1290px;
     height: 600px;
@@ -94,6 +94,7 @@ h2{
     justify-content: center;
     align-items: center;
     font-size: 42px;
+    font-weight: bold;
 }
 
 .chosee {
@@ -105,7 +106,13 @@ h2{
 
 .card1 {
     display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 540px;
+    width: 416px;
     margin-bottom: 30px;
+    border-radius: 5%;
+    background-image: url(./img/unsplash_TnOyyEtrKd0.png);
 }
 
 .card2 {
@@ -119,4 +126,171 @@ h2{
 .reviews{
     color: white;
     margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
     }
+.reviews-people{
+    width: 1697px;
+    height: 579px;
+    display: flex;
+    gap: 11px;
+    margin-bottom: 30px;
+    text-align: start;
+    align-items: center;
+    align-items: center;
+}
+.review-Alexandra{
+    width: 500px;
+    height: 273px;
+    background-color: #018ABE;
+    opacity: 40%;
+    padding: 39px 45px 70px 45px;
+    border-radius: 5%;
+    display: inline-block;
+}
+.review-Kira{
+    width: 636px;
+    height: 346px;
+    background-color: #018ABE;
+    padding: 5%;
+    border-radius: 5%;
+    display: inline-block;
+    padding: 49px 60px 55px 60px;
+
+}
+.review-Yana{
+    width: 500px;
+    height: 273px;
+    background-color: #018ABE;
+    opacity: 40%;
+    border-radius: 5%;
+    display: inline-block;
+    padding: 39px 45px 56px 45px;
+
+}
+h4{
+   font-size: 20px;   
+}
+p{
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+
+.about{
+    color: white;
+    margin-bottom: 30px;
+    justify-content: center;
+    }
+.aboutgrid{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-column-gap: 40px;
+    grid-row-gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+    
+.container{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.price{
+    color: white;
+    margin-bottom: 60px;
+    justify-content: center;
+    align-items: center;
+    }
+.price-item {
+   display: flex;
+   justify-content: space-between;
+   width: 416px;
+   
+}
+
+.priceitem {
+    margin-right: 70px;
+   
+   
+}
+ .service-name {
+            font-size: 18px;
+            color: white;
+            margin-bottom: 5px;}
+.price {
+            color: white;
+            font-weight: bold;
+            font-size: 20px;}
+
+.certificate{
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    width: 526px;
+    height: 455px;
+
+}
+.certificate_img{
+    border-radius: 5%;
+    width: 526px;
+    height: 396px;
+}
+
+
+footer{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contacts{
+   display: flex;
+   row-gap: 24px;
+   
+
+}
+
+.map {
+    width: 856px;
+    height: 604px;
+    margin-right: 48px;
+}
+
+.location {
+  display:flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+.location1{
+    background-color: #018ABE;
+    width: 392px;
+    height: 290px;
+    border-radius: 5%;
+    gap: 24px;
+    
+}
+
+.location2{
+    background-color: #018ABE;
+    width: 392px;
+    height: 290px;
+    border-radius: 5%;
+    
+}
+
+.button_footer{
+    background-color: white;
+    display: inline-flex;
+    padding: 15px 9px 15px 9px;
+    border-radius: 9px;
+}
+
+.button_footer{
+    color: #018ABE;}
+ h6{color: #018ABE;}
